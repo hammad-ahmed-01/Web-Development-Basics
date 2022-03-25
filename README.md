@@ -16,7 +16,7 @@
     <img src="javascript_logo.png" alt="Logo" width="150" height="150">
   </a>
 
-  <h1 align="center">Basic Concept of JavaScript </h1>
+  <h1 align="center">Web Development Basics </h1>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -34,7 +34,7 @@
     <li>
       <a href="#about-the-repository">About The Repository</a>
     </li>
-    <li><a href="#project-1">A Non Reactive Front Page Login Website</a></li>
+    <li><a href="#project-1">A Non Reactive Front Page SignIn Website</a></li>
   </ul>
 </details>
 
