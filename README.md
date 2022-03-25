@@ -38,7 +38,7 @@
   </ul>
 </details>
 
-## About The Repsitory
+## About The Repository
 
 This repository basically consisits of some basic web development ideas utilizing all the HTML and CSS elements and moving towards Javascript.
 
