@@ -1,0 +1,181 @@
+<! Author == Hammad Ahmed>
+<! HTML VS code> 
+
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpage 1</title>
+</head>
+<style>
+    body
+    {
+        font-family: 'Red Hat Mono', monospace;
+       color: rgb(231, 220, 220);
+       margin: 0px ;
+       padding: 0px;
+       background: url("nice.jpg"); 
+       background-size: cover;   
+    }
+    
+    .left
+    {
+        display: inline-block;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+
+    }
+
+    .right
+    {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+
+    .center
+    {
+        font-family: 'Red Hat Mono', monospace;
+        display: block;
+        width: 50%;
+        margin: 10px auto;
+    
+    }
+
+    .navbar
+    {
+        display: inline-block;
+
+    }
+    
+    .navbar li
+    {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .navbar li a 
+    {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover , .navbar li a:active
+    {
+        text-decoration: underline;
+        color: rgb(17, 2, 2);
+
+    }
+
+    .but
+    {
+        margin: 0px 10px;
+        background-color: rgb(36, 10, 150);
+        color: rgb(136, 243, 13);
+        border: 10px black;
+        border-radius: 10px;
+        cursor: pointer;
+        font-family: 'Red Hat Mono', monospace;
+
+    }
+
+    .but:hover , .but:active
+    {
+        background-color: black;
+        text-decoration: underline;
+    }
+    
+    .container
+    {
+        border: 5px solid black;
+        margin: 50px 50px;
+        padding: 20px 50px;
+        width: 33%;
+        border-radius: 10px;
+    }
+
+    .heading
+    {
+        text-align: center;
+
+    }
+
+    .form-stuff input
+    {
+        font-family: 'Red Hat Mono', monospace;
+        text-align: center;
+        margin: 8px auto;
+        padding: 2px 150px;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .but1
+    {
+        display: block;
+        margin: 20px auto;
+        padding: 2px 100px;
+        background-color: rgb(1, 1, 8);
+        color: rgba(255, 255, 255, 0.842);
+        border: 10px rgb(17, 4, 4);
+        cursor: pointer;
+        font-family: 'Red Hat Mono', monospace;
+    }
+
+    .but1:hover , .but1:active
+    {
+        background-color: rgb(99, 9, 216);
+        text-decoration: underline;
+    }
+
+
+</style>
+<body>
+     <header class="header">
+
+     <div class="left">
+        <img src="github.jpg" alt="Logo" width="100px" height="100px"> 
+     </div>
+
+     <div class="center">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+     </div>
+
+     <div class="right">
+       <button class="but">Menu Bar</button>
+       <button class="but">Settings</button>
+     </div>
+
+     </header>
+     <div class="container">
+     <h1 class="heading">Sign In</h1>
+     <form action="noaction.php">
+         <div class="form-stuff">
+             <input type="text" name="" placeholder="Enter Username">
+         </div>
+         <div class="form-stuff">
+            <input type="text" name="" placeholder="Enter Password">
+        </div>
+        <div class="form-stuff">
+            <input type="text" name="" placeholder="Enter Email Address">
+        </div>
+        <div class="form-stuff">
+            <input type="text" name="" placeholder="Enter Contact Number">
+        </div>
+         <button class="but1">Submit</button>
+     </form>
+     </div>
+</body>
+</html>
