@@ -11,9 +11,9 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="javascript_logo.png" alt="Logo" width="150" height="150">
-    <img src="javascript_logo.png" alt="Logo" width="150" height="150">
-    <img src="javascript_logo.png" alt="Logo" width="150" height="150">
+    <img src="Logos/html.jpg" alt="Logo" width="150" height="150">
+    <img src="Logos/javascript_logo.png" alt="Logo" width="150" height="150">
+    <img src="Logos/css.png" alt="Logo" width="150" height="150">
   </a>
 
   <h1 align="center">Web Development Basics </h1>
