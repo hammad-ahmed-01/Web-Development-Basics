@@ -31,10 +31,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ul>
-    <li>
-      <a href="#about-the-repository">About The Repository</a>
-    </li>
+    <li><a href="#about-the-repository">About The Repository</a></li>
     <li><a href="#project-1">A Non Reactive Front Page SignIn Website</a></li>
+    <li><a href="#project-2">A Reactive IEEE demo Website</a></li>
   </ul>
 </details>
 
